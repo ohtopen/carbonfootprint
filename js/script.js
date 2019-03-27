@@ -8,7 +8,7 @@ $(document).ready(function() {
 		var code = e.keyCode || e.which;
 
 		if (code == 189 || code == 173 || code == 32 || code == 69 || code == 109) {
-			return false;
+			return false;saDSASDADSASD
 		}
 	});
 
@@ -25,7 +25,7 @@ $(document).ready(function() {
 			var carInput = document.getElementById("car").value;
 			var flights4LessInput = document.getElementById("flights-4-less").value;
 			var flights4MoreInput = document.getElementById("flights-4-more").value;
-			
+
 			// set variables for calculating each component score
 			var electricScore = "";
 			var gasScore = "";
@@ -79,7 +79,7 @@ $(document).ready(function() {
 				carScore = carInput * 0.79;
 			}
 			// console.log("Car score is: " + carScore);
-		
+
 			if (flights4LessInput === 0 || flights4LessInput === "undefined") {
 				flights4LessScore = 0;
 			} else {
@@ -137,5 +137,5 @@ $(document).ready(function() {
 		} else {
 			calculateAndDisplayScore();
 		}
-	});	
+	});
 });
